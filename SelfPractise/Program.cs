@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SelfPractise;
+using System;
+
+namespace Demo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Palindrome palindrome = new Palindrome();
+            palindrome.CheckPalindrome();
+        }
+    }
+}
+
